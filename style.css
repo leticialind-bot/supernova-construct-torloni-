@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
@@ -16,7 +16,7 @@
 
 .espaco_lateral {
     width: 78%;
-    max-width: 1280%;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -48,13 +48,12 @@ header img {
     font-size: 12px;
     font-family: "Orbitron", sans-serif;
     font-weight: 600;
-    color: #6a93a0;
+    color: #6A93A0;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: 0.3s ease;
 }
-
 
 .menu a:hover {
     color: var(--azul);
@@ -66,7 +65,7 @@ header img {
     align-items: center;
     gap: 8px;
 
-    background-color: var(--azul);
+    background: var(--azul);
     color: #000;
 
     padding: 12px 24px;
@@ -131,7 +130,7 @@ header img {
     letter-spacing: 1px;
     text-transform: uppercase;
 
-    box-shadow: 0, 0 12px rgba(255, 184, 0, 0.15);
+    box-shadow: 0 0 12px rgba(255, 184, 0, 0.15);
     width: fit-content;
 }
 
@@ -173,13 +172,13 @@ header img {
 }
 
 .tag {
-    background-color: #ffb7004B;
+    background-color: #FFB7004B;
     border-radius: 6px;
     padding: 10px 15px;
 }
 
 .tag p:nth-child(1) {
-    color: #4a6b78;
+    color: #4A6B78;
     font-size: 10px;
 }
 
@@ -187,7 +186,6 @@ header img {
     color: var(--amarelo);
     font-size: 16px;
 }
-
 
 .construct {
     height: 560px;
@@ -202,17 +200,16 @@ header img {
     background: #111;
 }
 
-
 .botao{
     display: flex;
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     justify-content: center;
     margin-bottom: 80px;
     align-items: center;
     background-color: var(--amarelo);
-    border-radius: 10;
+    border-radius: 10px;
     gap: 10px;
     width: 300px;
     padding: 20px;
@@ -227,7 +224,7 @@ header img {
 }
 
 footer{
-    background-color: #020c18;
+    background-color: #020C18;
     padding: 80px 0;
     color: #64748B;
     font-family: "Inter", sans-serif;
@@ -268,7 +265,7 @@ footer{
 .navegacao_footer li{
     margin-bottom: 10px;
     cursor: pointer;
-    transition: 0.2ms;
+    transition: 0.2s;
 }
 
 .navegacao_footer li:hover{
@@ -306,4 +303,3 @@ footer{
     fill: white;
     color: white;
 }
-
